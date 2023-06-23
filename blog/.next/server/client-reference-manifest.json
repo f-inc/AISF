@@ -56,17 +56,17 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
+    "(app-client)/./node_modules/next/dist/client/link.js": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
+    "(app-client)/./node_modules/next/dist/client/image.js": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -243,6 +243,22 @@
       ],
       "async": false
     },
+    "/Users/lennarddorst/projects/markdown-blog/blog/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/posts/page:static/chunks/app/posts/page.js"
+      ],
+      "async": false
+    },
+    "/Users/lennarddorst/projects/markdown-blog/blog/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/posts/page:static/chunks/app/posts/page.js"
+      ],
+      "async": false
+    },
     "/Users/lennarddorst/projects/markdown-blog/blog/node_modules/next/dist/client/image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
@@ -256,22 +272,6 @@
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/lennarddorst/projects/markdown-blog/blog/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/lennarddorst/projects/markdown-blog/blog/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -293,10 +293,6 @@
     }
   },
   "entryCSSFiles": {
-    "/Users/lennarddorst/projects/markdown-blog/blog/app/posts/page": {
-      "modules": [],
-      "files": []
-    },
     "/Users/lennarddorst/projects/markdown-blog/blog/app/layout": {
       "modules": [
         "/Users/lennarddorst/projects/markdown-blog/blog/app/globals.css"
@@ -304,6 +300,18 @@
       "files": [
         "static/css/app/layout.css"
       ]
+    },
+    "/Users/lennarddorst/projects/markdown-blog/blog/app/posts/[slug]/page": {
+      "modules": [],
+      "files": []
+    },
+    "/Users/lennarddorst/projects/markdown-blog/blog/app/posts/page": {
+      "modules": [],
+      "files": []
+    },
+    "/Users/lennarddorst/projects/markdown-blog/blog/app/posts/[slug]/layout": {
+      "modules": [],
+      "files": []
     },
     "/Users/lennarddorst/projects/markdown-blog/blog/app/page": {
       "modules": [],

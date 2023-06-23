@@ -28,9 +28,9 @@ export default function Home() {
   const postPreviews = postMetadata.map((post) => (
     <Link href={`/posts/${post.slug}`} key={post.slug}>
       <div className="bg-gray-300 rounded-lg px-4 py-8 m-5 text-black hover:bg-blue-100 transition-colors duration-500 mx-20">
-        <a className="text-xl font-bold">{post.title}</a>
+        <p className="text-xl font-bold">{post.title}</p>
         <br />
-        <a class="font-thin text-gray-600">{post.subtitle}</a>
+        <p className="font-thin text-gray-600">{post.subtitle}</p>
       </div>
     </Link>
   ));

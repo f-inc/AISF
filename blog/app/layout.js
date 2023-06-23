@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   const header = (
     <header className="bg-slate-600 mx-10 my-5 rounded-lg px-1 py-2">
-      <div class="flex justify-start divide-x-2 divide-blue-300">
+      <div className="flex justify-start divide-x-2 divide-blue-300">
         <Link href="/">
           <p className="font-bold text-white pl-5 px-5">F Inc</p>
         </Link>
@@ -29,7 +29,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <div className="mb-10">{header}</div>
-        <div className="">{children}</div>
+
+
+          {children}
+
       </body>
     </html>
   );
